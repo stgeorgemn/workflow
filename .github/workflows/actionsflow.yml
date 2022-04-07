@@ -2,6 +2,8 @@ name: Actionsflow
 on:
   schedule:
     - cron: "*/15 * * * *"
+  youtube:
+    playlist_id: PLHYpJBpUneguwI1mPWocqBZGjovn-pj0u
   push:
     branches:
       - main
