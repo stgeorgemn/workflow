@@ -9,9 +9,7 @@ jobs:
       - name: Print Outputs
         env:
           title: ${{on.youtube.outputs.title}}
-          description: ${{on.youtube.outputs.description}}
-          link: ${{on.youtube.outputs.link}}
+          videoId: ${{on.youtube.outputs.videoId}}
         run: |
           echo title: $title
-          echo description: $description
-          echo link: $link
+          echo videoId: $videoId
