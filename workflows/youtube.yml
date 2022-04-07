@@ -1,6 +1,6 @@
 on:
   youtube:
-    channel_id: UCnCikd0s4i9KoDtaHPlK-JA
+    playlist_id: PLHYpJBpUneguwI1mPWocqBZGjovn-pj0u
 jobs:
   print:
     name: Print
