@@ -1,0 +1,7 @@
+- name: create-json
+      id: create-json
+      uses: jsdaniell/create-json@1.1.2
+      with:
+        name: "episode.json"
+        json: '{"id":videoId}'
+        dir: 'src/'
